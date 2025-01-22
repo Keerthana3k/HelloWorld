@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class SumandAverage {
+
+	public static void main(String[] args) {
+		Scanner scanner=new  Scanner(System.in);
+		int[] marks= new int[6];
+		marks[2]=23;
+		marks[4]=56;
+		for(int i=0;i<marks.length;i++) {
+			System.out.println(marks[i]);
+		}
+		scanner.close();
+
+	}
+
+}
